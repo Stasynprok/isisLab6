@@ -1,0 +1,5 @@
+kubectl apply -f Deploy.yaml
+
+kubectl port-forward {имя пода} 5000:5000
+
+kubectl get pod -w
